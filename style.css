@@ -79,7 +79,7 @@ ol li {
 }
 
 .row1 {
-    width: 100%;
+    min-width: 100%;
 }
 .row2 {
     height: 800px;
@@ -261,4 +261,7 @@ ul > li {
 }
 #sketches{
     width:800px;
+}
+#pa4 {
+    width: 500px
 }
