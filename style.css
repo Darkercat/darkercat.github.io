@@ -16,12 +16,17 @@ body {
     height: 1500px;
     width: 100%;
 }
+.pa-content{
+    height: 3000px;
+}
+.about-content{
+    height: 1000px;
+}
 a{
     text-decoration: none;
 }
 .container {
     width: 100%;
-    min-width: 1700px;
     height: 100px;
     background-color:#fdb064;
     background-position: center;
@@ -44,7 +49,6 @@ a{
 }
 nav {
     flex: 1;
-    min-width: 1500px;
     text-align: right;
 }
 nav ul li {
@@ -75,7 +79,7 @@ ol li {
 }
 
 .row1 {
-    width: 1400px;
+    width: 100%;
 }
 .row2 {
     height: 800px;
@@ -220,4 +224,41 @@ ul > li {
 }
 #about-h1 {
     font-size: 35px;
+}
+.pa {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 1s ease-in-out;
+}
+.pa-1 {
+    background-image: url("img/pa1.jpeg");
+}
+.pa-2 {
+    background-image: url("img/pa2.jpeg");
+}
+.pa-3 {
+    background-image: url("img/pa5.jpeg");
+}
+.pa-4 {
+    background-image: url("img/pa6.jpeg");
+}
+.pa-5 {
+    background-image: url("img/pa7.jpeg");
+}
+.pa-6 {
+    background-image: url("img/pa8.jpeg");
+}
+#palette{
+    width:1200px;
+}
+#sketches{
+    width:800px;
 }
